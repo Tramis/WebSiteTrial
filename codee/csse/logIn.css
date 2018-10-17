@@ -1,0 +1,8 @@
+div{
+    margin: 0 auto;
+    text-align: center;
+}
+canvas{
+    margin-top: 40px;
+    background: #000;
+}

@@ -1,0 +1,104 @@
+body, div, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, input {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img, fieldset {
+    border: 0 none;
+    display: block;
+}
+
+body{
+    font-family: Arial;
+}
+
+div{
+    margin: 0 auto;
+}
+
+.nav1{
+    float: left;
+    position: fixed;
+    background: skyblue;
+    width: 50px;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.sum{
+    padding-top: 1px;
+    margin: 0 auto;
+    width: 1100px;
+    height: 2000px;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.title{
+    margin-top: 10px;
+    width: 1000px;
+    height: 258px;
+    background: rgba(0, 0, 0, 0.18);
+}
+
+.title .board{
+    float: left;
+    margin-left: 20px;
+    margin-top: 34px;
+    width: 820px;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.33);
+}
+
+.title .hitCard{
+    float: right;
+    margin-top: 34px;
+    margin-right: 20px;
+    width: 120px;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.34);
+}
+
+.content{
+    margin-top: 30px;
+    width: 1100px;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.18);
+}
+
+.content .realContent{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 745px;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.33);
+}
+
+.content .falseContent{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 240px;
+    height: 1000px;
+    /*background: rgba(0, 0, 0, 0.33);*/
+}
+
+.content .falseContent .test{
+    word-wrap:break-word;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    width: 236px;
+    /*height: 168px;*/
+    background: rgba(0, 0, 0, 0.47);
+}
